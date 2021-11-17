@@ -28,7 +28,7 @@ city_state_zip = 'Hayward, CA 94541'
 document.paragraphs[6].add_run(beneficiary_name)
 
 # Add decedent's name to paragraph
-decedents_name = 'Nicole Bessolo'
+decedents_name = 'Dead Person Name'
 document.paragraphs[8].runs[2].add_text(decedents_name + "'s")
 
 # Add account number to paragraph
